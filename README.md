@@ -1,5 +1,11 @@
 # Graylog server
 
+This repo sets a graylog server using docker-compose.
+
+more info:
+https://docs.docker.com/
+https://docs.docker.com/compose/
+https://docs.graylog.org/en/3.3/
 
 # Instructions:
 
@@ -32,4 +38,3 @@ yum install -y rsyslog
 echo "*.*                     @@<your-graylogserver-ip>:port" >> /etc/rsyslog.conf;systemctl restart rsyslog
 ```
 
-More info: https://docs.graylog.org/en/3.3/
