@@ -15,7 +15,7 @@ Clone this repo
 git clone https://github.com/ejr004/graylog
 ```
 
-Edit docker-compose and set password, timezone, etc.
+Edit docker-compose (search for CHANGE ME) and set password, timezone, etc.
 ```
 vim docker-compose.yml
 ```
