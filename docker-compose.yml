@@ -39,6 +39,7 @@ services:
       # CHANGE ME (must be at least 16 characters)!
       - GRAYLOG_PASSWORD_SECRET=eksUiSUR59xvVp3q
       # CHANGE ME (web console password)
+      # echo -n "Enter Password: " && head -1 </dev/stdin | tr -d '\n' | sha256sum | cut -d" " -f1
       - GRAYLOG_ROOT_PASSWORD_SHA2=636577585d7b8ea6cdbba0209139f7bbe9e4e90c7db876232395ba2cda95de29
       # CHANGE ME (set your graylog IP)
       - GRAYLOG_HTTP_EXTERNAL_URI=http://0.0.0.0:9000/
