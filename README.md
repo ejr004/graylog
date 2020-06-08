@@ -34,7 +34,7 @@ sudo firewall-cmd --permanent --zone=public --add-port=1514/tcp
 sudo firewall-cmd --reload
 ````
 
-Access your server at http://<your-serverip>:9000
+Access your server at http://your-server-ip:9000
 
 ## Set your client machines:
 
